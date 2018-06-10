@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BSSA – Assessment</title>
+</head>
+<body>
+<!-- start form -->
+<form action="form-exercise.php" method="post">  
+	<h2>Contact Form</h2>
+	<fieldset>
+		<div id="const_text" style="float: left;">
+			First Name * <br>
+			Last Name * <br>
+			Email Address * <br>
+			Telephone Number <br>
+			Comments * <br>
+		</div>
+		<div id="input_text" style="padding: 0px; margin: 0px 10px;" >
+			<input type="text" name="name" autofocus required tabindex="1"><br>
+			<input type="text" name="lastName" required tabindex="2"><br>
+			<input type="email" name="email" required tabindex="3"><br>
+			<input type="tel" name="phone" maxlength="10" tabindex="4"><br>
+			<textarea name="comment" rows="10" cols="30" required tabindex="5"></textarea><br>
+			<input type="submit" value="Submit Form" tabindex="6">
+		</div>
+	</fieldset>
+</form>
+<!-- end form -->
+</body>
+</html>
